@@ -1,0 +1,109 @@
+$blue: #0085ff;
+$lightblue: #2395ff;
+$f4: #f4f4f4;
+$fa: #fafafa;
+$f: #fff;
+$f6: #666;
+$f9: #999;
+
+@mixin irs($url){
+    background-image: url($url);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+@mixin whr($width, $height, $radius){
+    width: $width;
+    height: $height;
+    border-radius: $radius;
+    
+}
+
+@mixin la($height, $align: center){
+    line-height: $height;
+    text-align: $align;
+}
+
+@mixin lg($color1, $stop1, $color2,$stop2) {
+    background: -webkit-gradient(linear,left bottom, left top, color-stop($stop1 ,$color1),color-stop($stop2, $color2));
+    background: -webkit-linear-gradient(bottom, $color1 $stop1, $color2 $stop2);
+    background: linear-gradient(0deg, $color1 $stop1, $color2 $stop2);
+}
+
+@mixin wh($width, $height){
+    width: $width;
+    height: $height;
+}
+
+//定位  全屏
+@mixin allcover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+//定位  上下左右居中
+@mixin center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+
+@mixin ct{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@mixin cl{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@mixin ptl($top, $left, $pos: absolute) {
+  position: $pos;
+  top: $top;
+  left: $left;
+}
+
+//固定元素
+@mixin prb($right, $bottom, $pos: fixed) {
+  position: $pos;
+  right: $right;
+  bottom: $bottom;
+}
+
+
+
+@mixin font($size, $line-height, $family: 'Microsoft YaHei') {
+    font: #{$size}/#{$line-height} $family;
+}
+
+@mixin sc($size, $color){
+    font-size: $size;
+    color: $color;
+}
+
+@mixin fj($type: space-between) {
+    display: flex;
+    justify-content: $type;
+}
+
+@mixin fja($type1: space-between, $type2: center){
+    display: flex;
+    justify-content: $type1;
+    align-items: $type2;
+}
+
+@mixin ptf($top, $left ) {
+    position: absolute;
+    top: $top;
+    left: $left;
+}

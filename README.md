@@ -30,13 +30,29 @@ npm start
 收货地址列表、添加地址、编辑地址、删除地址
 
 发现页
-![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/1jf6n-yldrq.gif)
-![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/87k4y-phu02.gif)
-![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/c31tu-mnvy5.gif)
-![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/jr3zu-1zgaa.gif)
-![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/jzpo5-u13y7.gif)
-![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/uyvwn-dmd2x.gif)
-![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/x3c0l-fvaa8.gif)
-![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/zbjxt-ljshu.gif)
+
+首页，根据条件筛选：![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/jr3zu-1zgaa.gif)
+
+选择地址： ![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/87k4y-phu02.gif)
+
+店铺详情，添加到购物车：![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/c31tu-mnvy5.gif)
+
+确认订单： ![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/1jf6n-yldrq.gif)
+
+登录、添加头像： ![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/zbjxt-ljshu.gif)
+
+编辑、添加、删除地址：![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/jzpo5-u13y7.gif)
+
+搜索视频：![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/uyvwn-dmd2x.gif)
+
+发现： ![image](https://github.com/123456yr/elm-yr/blob/master/vue-elm/src/video/x3c0l-fvaa8.gif)
+
+
+
+
+
+
+
+
 
 
